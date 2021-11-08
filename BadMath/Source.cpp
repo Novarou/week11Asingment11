@@ -1,10 +1,16 @@
+/*
+Nathan Morris
+cis 1202 assingment #12
+11/8/21
+*/
+
 #include <iostream>
 #include <iomanip>
 using namespace std;
 
 float average(int i1, int i2, int i3)
 {
-	return i1 + i2 + i3 / 3.0f;
+	return (i1 + i2 + i3) / 3.0f; // put variables in ()
 }
 
 int main()
@@ -19,5 +25,8 @@ int main()
 
 	cout << setprecision(1) << fixed << "The average is " << a << endl;
 
+
+	cout << endl << endl; // added end code
+	system("pause");
 	return 0;
 }
